@@ -3,29 +3,29 @@
 In this project we here given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite.
 
 ## How to run
-* Clone the repository
+* Clone the repository or Download the Zip file
 * Open index.html in the browser
 * You will find unit test results in the bottom of the application
 
 ## Unit Tests
 
 ### Test Suite - RSS Feeds
-Specs
+
 - are defined
 - checks if the feeds has a valid URL
 - checks if the feeds has a valid name
 
 ### Test Suite - The Menu
-Specs
+
 - is hidden initially
 - changes visibility when menu icon is clicked
 
 ### Test Suite - Initial Entries
-Specs
+
 - checks if at least a single .entry element within the .feed container
 
 ### Test Suite - New Feed Selection
-Specs
+
 - has content from next feed changing upon loaded
 
 
