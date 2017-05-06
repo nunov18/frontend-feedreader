@@ -10,23 +10,23 @@ In this project we here given a web-based application that reads RSS feeds. The 
 ## Unit Tests
 
 ### Test Suite - RSS Feeds
-* Specs
-- checks if the allFeeds variable has been defined
+Specs
+- are defined
 - checks if the feeds has a valid URL
 - checks if the feeds has a valid name
 
 ### Test Suite - The Menu
-* Specs
-- checks if menu element is hidden by default
-- checks if the menu visibility changes when clicked
+Specs
+- is hidden initially
+- changes visibility when menu icon is clicked
 
 ### Test Suite - Initial Entries
-* Specs
+Specs
 - checks if at least a single .entry element within the .feed container
 
 ### Test Suite - New Feed Selection
-* Specs
-- checks if the content changes when a new feed is loaded
+Specs
+- has content from next feed changing upon loaded
 
 
 ## What will I learnt?

@@ -32,7 +32,7 @@ $(function() {
          * and that the URL is not empty.
          */
 
-         it('has a url for each feed', function() {
+         it('checks if the feeds has a valid URL', function() {
            for (var i = 0; i < allFeeds.length; i++) {
              var url = allFeeds[i].url;
              expect(url).toBeTruthy();
@@ -45,7 +45,7 @@ $(function() {
          * and that the name is not empty.
          */
 
-         it('has a name for each feed', function() {
+         it('checks if the feeds has a valid Name', function() {
            for (var i = 0; i < allFeeds.length; i++) {
              var name = allFeeds[i].name;
              expect(name).toBeTruthy();
@@ -127,7 +127,7 @@ $(function() {
         });
       });
 
-      it('has content from next feed changing uppon loaded', function(done) {
+      it('has content from next feed changing upon loaded', function(done) {
         loadFeed(2, function() {
           expect($('.feed').html()).not.toBe(nextFeed);
           done();
