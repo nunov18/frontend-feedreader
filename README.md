@@ -28,12 +28,6 @@ In this project we here given a web-based application that reads RSS feeds. The 
 
 - has content from next feed changing upon loaded
 
-
-## What will I learnt?
-
-I learnt how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
-
-
 ## Why testing?
 
 * Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
